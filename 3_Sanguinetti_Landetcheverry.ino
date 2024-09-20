@@ -81,7 +81,7 @@ void loop() {
     Sumar = true;
   }
 
-  //Detecta si el boton esta prendido y si el contador es 3
+
   if (digitalRead(12) == 1 && Contador == 3){
     digitalWrite(6, HIGH);
     digitalWrite(9, HIGH);
@@ -92,7 +92,6 @@ void loop() {
   }
 
    if (digitalRead(12) == 1 && Contador == 4){
-    //Prende led 4, apaga la led 3
     digitalWrite(6, LOW);
     digitalWrite(9, LOW);
     digitalWrite(10, HIGH);
@@ -197,7 +196,6 @@ void loop() {
   }
 
   if (digitalRead(12) == 1 && Contador == 15){
-    //Prende led 4, apaga la led 3
     digitalWrite(6, HIGH);
     digitalWrite(9, HIGH);
     digitalWrite(10, HIGH);
