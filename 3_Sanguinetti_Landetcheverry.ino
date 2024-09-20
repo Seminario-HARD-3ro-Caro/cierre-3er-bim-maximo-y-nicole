@@ -1,3 +1,28 @@
+/* Integrantes
+    Nombre: Maximo
+    Apellido: Sanguinetti
+    Curso: 3A
+    
+    Nombre: Nicole
+    Apellido: Landetcheverry
+    Curso: 3A
+
+3. A continnuación se desea fabricar un contador binario de 4 bits.
+        El programa deberá contar de 0 a 15 mostrando la cuenta actual a través de los 4 LEDs.
+        Se interpreta 0 si el LED está apagado y 1 si el LED está prendido. 
+        La cuenta aumenta cada vez que el pulsador es presionado, al llegar a 15 deberá volver a empezar en 0.
+        IMPORTANTE: la cuenta debe aumentar UNA SOLA VEZ por cada pulsación.
+ Pines:
+        Boton: 12
+        LED1: 6
+        LED2: 9
+        LED3: 10
+        LED4: 11
+      Valor:
+        R_boton: 47000 ohms
+        R_LEDs: 330ohms
+*/
+
 //Contador lo utilizo para cambiar entre leds
 byte Contador = 0;
 
